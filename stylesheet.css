@@ -1,0 +1,81 @@
+/*--global----*/
+.{
+    margin: auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+}
+
+.sign{
+    display:inline-block;
+    background: #2C5CBC;
+    color: white;
+    text-decoration: none;
+    padding: 7px 17px 7px 17px;
+    border-radius: 50px;
+    text-align: center  top;
+    
+    
+}
+.started{
+    display: block;
+    background: #2C5CBC;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    width: 175px;
+    -webkit-box-shadow: -1px 34px 46px -16px rgba(0,0,0,0.72); 
+    box-shadow: -1px 34px 46px -16px rgba(0,0,0,0.72);
+}
+
+
+/*-------nav--------*/
+
+nav  {
+  text-align: right;  
+}
+
+nav a :first-child{
+    float: left;
+    margin-left: 70px;
+    margin-top: 7px;
+}
+nav a{
+    margin-right: 45px;   
+    text-decoration: none;
+    color: black;
+}
+
+/*-------body--------*/
+.main{
+     height: 610px;
+    min-height: 610px;
+    background: url("Group 6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+.main h1{
+   padding:150px 800px 0px 70px;
+}
+.main p{
+    padding:0px 850px 10px 70px;
+}
+.main a{
+    margin:0px 1000px 10px 70px;
+}
+
